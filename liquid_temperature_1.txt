@@ -1,0 +1,6 @@
+Let us assume the true temperature of 50 degrees Celsius.
+We think that we have an accurate model, thus we set the process noise variance ( q ) to 0.0001.
+The measurement error (standard deviation) is 0.1 degrees Celsius.
+The measurements are taken every 5 seconds.
+The true liquid temperature at the measurement points is: 49.979 C, 50.025 C, 50 C, 50.003 C, 49.994 C, 50.002 C, 49.999 C, 50.006 C, 49.998 C, and 49.991 C.
+The set of measurements is: 49.95 C, 49.967 C, 50.1 C, 50.106 C, 49.992 C, 49.819 C, 49.933 C, 50.007 C, 50.023 C, and 49.99 C.

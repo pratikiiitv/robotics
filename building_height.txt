@@ -1,0 +1,5 @@
+x(0,0) = 60 % Initial state estimate
+p(0,0) = 225 % Initial estimation error
+r = 25 % Measurement uncertainty altimeter measurement error sigma = 5
+% Ten Measurements
+48.54m, 47.11m, 55.01m, 55.15m, 49.89m, 40.85m, 46.72m, 50.05m, 51.27m, 49.95m

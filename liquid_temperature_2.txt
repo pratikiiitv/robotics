@@ -1,0 +1,12 @@
+Like in the previous example, in this example we are going to estimate the temperature of the liquid in the tank. The system dynamics is not constant, the liquid is heating at the rate of 0.1oC every second.
+
+The Kalman Filter parameters are similar to the previous example:
+
+We think that we have an accurate model, thus we set the process noise variance (q) to 0.0001.
+The measurement error (standard deviation) is 0.1oC.
+The measurements are taken every 5 seconds.
+The system dynamics is constant.
+Pay attention, although the real system dynamics is not constant (since the liquid is heating), we are going to treat the system as a system with constant dynamics (the temperature doesn't change).
+
+The true liquid temperature at the measurement points is: 50.479oC, 51.025oC, 51.5oC, 52.003oC, 52.494oC, 53.002oC, 53.499oC, 54.006oC, 54.498oC, and 54.991oC.
+The set of measurements is: 50.45oC, 50.967oC, 51.6oC, 52.106oC, 52.492oC, 52.819oC, 53.433oC, 54.007oC, 54.523oC, and 54.99oC.
